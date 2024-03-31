@@ -68,7 +68,7 @@ def login(driver):
         driver.get("https://www.bing.com/myprofile")
 
         # cookies file saved from previous logins
-        with open(f"{EMAIL.split('@')[0]}.json", "r") as file:
+        with open(f"cookies/{EMAIL.split('@')[0]}.json", "r") as file:
             cookies = json.load(file)
             for cookie in cookies:
                 driver.add_cookie(cookie)
@@ -139,7 +139,7 @@ def login(driver):
 
         # save cookies
         cookies = driver.get_cookies()
-        with open(f"{EMAIL.split('@')[0]}.json", "w") as f:
+        with open(f"cookies/{EMAIL.split('@')[0]}.json", "w") as f:
             json.dump(cookies, f)
 
         sleep(random.uniform(4, 6))
@@ -275,6 +275,6 @@ def search(driver):
 if __name__ == "__main__":
     driver = get_driver()
     login(driver)
-    # search(driver)
+    search(driver)
     attempt_daily_sets(driver)
     driver.quit()
