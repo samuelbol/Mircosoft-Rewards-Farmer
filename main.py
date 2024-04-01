@@ -33,7 +33,7 @@ PC_SEARCHES = 5
 
 # Profile Details
 EMAIL = os.environ['email']
-PASSWORD = 'os.environ['paswword']
+PASSWORD = os.environ['paswword']
 
 
 def get_driver():
