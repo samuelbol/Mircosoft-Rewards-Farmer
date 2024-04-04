@@ -37,20 +37,17 @@ PASSWORD = os.environ['password']
 
 
 def get_driver():
-    my_user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.131 Safari/537.36"
-
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument(f"--user-agent={my_user_agent}")
+    # chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument(
         "--disable-blink-features=AutomationControlled")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument("--disable-infobars")
-    chrome_options.add_argument("--disable-extensions")
+
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    driver.minimize_window()
     return driver
 
 
@@ -68,7 +65,7 @@ def login(driver):
         driver.get("https://www.bing.com/myprofile")
 
         # cookies file saved from previous logins
-        with open(f"cookies/{EMAIL.split('@')[0]}.json", "r") as file:
+        with open(f"./cookies/{EMAIL.split('@')[0]}.json", "r") as file:
             cookies = json.load(file)
             for cookie in cookies:
                 driver.add_cookie(cookie)
@@ -139,7 +136,7 @@ def login(driver):
 
         # save cookies
         cookies = driver.get_cookies()
-        with open(f"cookies/{EMAIL.split('@')[0]}.json", "w") as f:
+        with open(f"./cookies/{EMAIL.split('@')[0]}.json", "w") as f:
             json.dump(cookies, f)
 
         sleep(random.uniform(4, 6))
