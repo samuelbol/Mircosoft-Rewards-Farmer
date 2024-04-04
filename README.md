@@ -3,10 +3,8 @@
 Welcome to the Microsoft Reward Farmer Bot GitHub Repository!
 
 [![GitHub stars](https://img.shields.io/github/stars/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com/samuelbol/Mircosoft-Rewards-Farmer/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks//samuelbol/Mircosoft-Rewards-Farmer.svg)]
-(https://github.com//samuelbol/Mircosoft-Rewards-Farmer/network)
-[![GitHub issues](https://img.shields.io/github/issues//samuelbol/Mircosoft-Rewards-Farmer.svg)]
-(https://github.com//samuelbol/Mircosoft-Rewards-Farmer/issues)
+[![GitHub forks](https://img.shields.io/github/forks/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com//samuelbol/Mircosoft-Rewards-Farmer/network)
+[![GitHub issues](https://img.shields.io/github/issues/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com//samuelbol/Mircosoft-Rewards-Farmer/issues)
 ![GitHub followers](https://img.shields.io/github/followers/samuelbol.svg?style=social&label=Follow)
 
 My repository houses a cutting-edge script designed to help you earn passive income through the Microsoft Rewards program. By leveraging the Bing offer bonus search and completing tasks, you can accumulate reward points effortlessly.
