@@ -1,11 +1,11 @@
 # Mircosoft-Rewards-Farmer
 
-##👋 Welcome to the future of automation
+## 👋 Welcome to the future of automation
 
-[![GitHub stars](https://img.shields.io/github/stars/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com/samuelbol/Mircosoft-Rewards-Farmer/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com//samuelbol/Mircosoft-Rewards-Farmer/network)
-[![GitHub issues](https://img.shields.io/github/issues/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com//samuelbol/Mircosoft-Rewards-Farmer/issues)
-![GitHub followers](https://img.shields.io/github/followers/samuelbol.svg?style=social&label=Follow)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
+[![Built by Developer](https://img.shields.io/badge/Built%20by-Developer-orange.svg)](https://yourdeveloperprofilelink)
+[![Built with Love](https://img.shields.io/badge/Built%20with-Love-red.svg)](https://en.wikipedia.org/wiki/Love)
+
 
 ### A simple bot that uses selenium to farm Microsoft Rewards written in Python
 
