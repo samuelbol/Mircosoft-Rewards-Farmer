@@ -11,8 +11,8 @@
 ## 👋 Welcome to the future of automation
 <div align="center">
        
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue&logoHeight=800.svg)](https://www.python.org/)
-[![Built with Love](https://img.shields.io/badge/Built%20with-Love-red&logoWidth=400.svg)](https://en.wikipedia.org/wiki/Love)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
+[![Built with Love](https://img.shields.io/badge/Built%20with-Love-red.svg)](https://en.wikipedia.org/wiki/Love)
 </div>
 
 ### A simple bot that uses selenium to farm Microsoft Rewards written in Python
