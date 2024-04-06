@@ -7,7 +7,6 @@
 ____
 
 ### A simple bot that uses selenium to farm Microsoft Rewards written in Python
-----
 
 ```diff
 - Use it at your own risk, Microsoft may ban your account (and I would not be responsible for it):
@@ -28,4 +27,17 @@ ____
    If they're not, install the current "vc_redist.exe" from this link and reboot your computer : https://learn.microsoft.com/en-GB/cpp/windows/latest-supported-vc-redist?view=msvc-170  
 
 
-## Usage
+## Features
+* Saves cookies and can be used when login in afterward to save run time and minimize bot detention risk
+* Bing searches (Desktop) with User-Agents
+* Complete automatically the daily set
+* Complete automatically punch cards
+* Complete automatically the others promotions
+* Session storing
+
+  ## Future Features
+* Multi-Account Management
+* 2FA Support
+* Notifications (discord, telegram)
+* Proxy Support
+  
