@@ -7,6 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/samuelbol/Mircosoft-Rewards-Farmer.svg)](https://github.com//samuelbol/Mircosoft-Rewards-Farmer/issues)
 ![GitHub followers](https://img.shields.io/github/followers/samuelbol.svg?style=social&label=Follow)
 
-# A simple bot that uses selenium to farm Microsoft Rewards written in Python
+### A simple bot that uses selenium to farm Microsoft Rewards written in Python
 
-- Use it at your own risk, Microsoft may ban your account (and I would not be responsible for it)
+Markup : Code appears between colons :- Use it at your own risk, Microsoft may ban your account (and I would not be responsible for it)
+:
