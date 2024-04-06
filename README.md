@@ -41,7 +41,7 @@
 * Complete automatically the daily set
 * Complete automatically punch cards
 * Complete automatically the others promotions
-* Session storing
+
 
   ## Future Features
 * Multi-Account Management
