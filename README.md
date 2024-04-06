@@ -20,3 +20,5 @@ Key features of our script include:
 Whether you're a beginner looking to earn some extra income or an experienced user seeking to maximize rewards, our Microsoft Reward Farmer Bot has you covered.
 
 Feel free to explore our repository, contribute to its development, or simply use it to start earning rewards today!
+
+public static Deciamal
