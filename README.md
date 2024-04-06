@@ -9,4 +9,4 @@
 
 ### A simple bot that uses selenium to farm Microsoft Rewards written in Python
 
-Markup : Code appears between colons :- Use it at your own risk, Microsoft may ban your account (and I would not be responsible for it):
+Markup : - Use it at your own risk, Microsoft may ban your account (and I would not be responsible for it):
