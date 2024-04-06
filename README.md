@@ -1,4 +1,3 @@
-<div style="margin: 0 auto; max-width: 800px; border: 1px solid #eaecef; padding: 20px;">
 ``` 
 ███╗   ███╗███████╗    ███████╗ █████╗ ██████╗ ███╗   ███╗███████╗██████╗
 ████╗ ████║██╔════╝    ██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔════╝██╔══██╗
@@ -11,8 +10,9 @@
  
 ## 👋 Welcome to the future of automation
 <div align="center">
-       [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue&logoWidth=400.svg)](https://www.python.org/)
-       [![Built with Love](https://img.shields.io/badge/Built%20with-Love-red&logoWidth=400.svg)](https://en.wikipedia.org/wiki/Love)
+       
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue&logoWidth=400.svg)](https://www.python.org/)
+[![Built with Love](https://img.shields.io/badge/Built%20with-Love-red&logoWidth=400.svg)](https://en.wikipedia.org/wiki/Love)
 </div>
 
 ### A simple bot that uses selenium to farm Microsoft Rewards written in Python
@@ -49,4 +49,3 @@
 * Notifications (discord, telegram)
 * Proxy Support
 
-</div>
